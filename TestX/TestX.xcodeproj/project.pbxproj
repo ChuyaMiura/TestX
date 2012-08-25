@@ -29,7 +29,7 @@
 		A7D0A30D15E929B100B26FB1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D0A30B15E929B000B26FB1 /* TableViewController.m */; };
 		A7D0A31215E92B3C00B26FB1 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D0A31115E92B3C00B26FB1 /* CustomCell.m */; };
 		A7D0A31415E92B4E00B26FB1 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D0A31315E92B4E00B26FB1 /* CustomCell.xib */; };
-		A7D0A31615E92D1800B26FB1 /* 1st_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D0A31515E92D1700B26FB1 /* 1st_image@2x.png */; };
+		A7D0A31C15E935A600B26FB1 /* 1st_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D0A31B15E935A500B26FB1 /* 1st_image@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,7 @@
 		A7D0A31015E92B3C00B26FB1 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		A7D0A31115E92B3C00B26FB1 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		A7D0A31315E92B4E00B26FB1 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		A7D0A31515E92D1700B26FB1 /* 1st_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1st_image@2x.png"; path = "../../../../Downloads/moments 2/slices/1st_image@2x.png"; sourceTree = "<group>"; };
+		A7D0A31B15E935A500B26FB1 /* 1st_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1st_image@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 		A7D0A2CD15E91D3600B26FB1 /* TestX */ = {
 			isa = PBXGroup;
 			children = (
-				A7D0A31515E92D1700B26FB1 /* 1st_image@2x.png */,
+				A7D0A31B15E935A500B26FB1 /* 1st_image@2x.png */,
 				A7D0A30F15E92B2400B26FB1 /* CustomTableView */,
 				A7D0A30A15E929B000B26FB1 /* TableViewController.h */,
 				A7D0A30B15E929B000B26FB1 /* TableViewController.m */,
@@ -273,7 +273,7 @@
 				A7D0A2EA15E91D3600B26FB1 /* second.png in Resources */,
 				A7D0A2EC15E91D3600B26FB1 /* second@2x.png in Resources */,
 				A7D0A31415E92B4E00B26FB1 /* CustomCell.xib in Resources */,
-				A7D0A31615E92D1800B26FB1 /* 1st_image@2x.png in Resources */,
+				A7D0A31C15E935A600B26FB1 /* 1st_image@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
