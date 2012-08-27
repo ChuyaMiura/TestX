@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7AE803215EB1449002D90F3 /* IncludeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE803115EB1449002D90F3 /* IncludeTableViewController.m */; };
 		A7D0A2C815E91D3600B26FB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D0A2C715E91D3600B26FB1 /* UIKit.framework */; };
 		A7D0A2CA15E91D3600B26FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D0A2C915E91D3600B26FB1 /* Foundation.framework */; };
 		A7D0A2CC15E91D3600B26FB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D0A2CB15E91D3600B26FB1 /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7AE803015EB1449002D90F3 /* IncludeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncludeTableViewController.h; sourceTree = "<group>"; };
+		A7AE803115EB1449002D90F3 /* IncludeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncludeTableViewController.m; sourceTree = "<group>"; };
 		A7D0A2C315E91D3600B26FB1 /* TestX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D0A2C715E91D3600B26FB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7D0A2C915E91D3600B26FB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7AE802D15EB13DC002D90F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7D0A2E215E91D3600B26FB1 /* first.png */,
+				A7D0A2E415E91D3600B26FB1 /* first@2x.png */,
+				A7D0A2E915E91D3600B26FB1 /* second.png */,
+				A7D0A2EB15E91D3600B26FB1 /* second@2x.png */,
+				A7D0A31B15E935A500B26FB1 /* 1st_image@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		A7D0A2B815E91D3600B26FB1 = {
 			isa = PBXGroup;
 			children = (
@@ -134,8 +149,8 @@
 		A7D0A2CD15E91D3600B26FB1 /* TestX */ = {
 			isa = PBXGroup;
 			children = (
-				A7D0A31B15E935A500B26FB1 /* 1st_image@2x.png */,
-				A7D0A30F15E92B2400B26FB1 /* CustomTableView */,
+				A7AE802D15EB13DC002D90F3 /* Resources */,
+				A7D0A30F15E92B2400B26FB1 /* CustomCell */,
 				A7D0A30A15E929B000B26FB1 /* TableViewController.h */,
 				A7D0A30B15E929B000B26FB1 /* TableViewController.m */,
 				A7D0A2D615E91D3600B26FB1 /* AppDelegate.h */,
@@ -144,13 +159,11 @@
 				A7D0A2DC15E91D3600B26FB1 /* MainStoryboard_iPad.storyboard */,
 				A7D0A2DF15E91D3600B26FB1 /* FirstViewController.h */,
 				A7D0A2E015E91D3600B26FB1 /* FirstViewController.m */,
-				A7D0A2E215E91D3600B26FB1 /* first.png */,
-				A7D0A2E415E91D3600B26FB1 /* first@2x.png */,
 				A7D0A2E615E91D3600B26FB1 /* SecondViewController.h */,
 				A7D0A2E715E91D3600B26FB1 /* SecondViewController.m */,
-				A7D0A2E915E91D3600B26FB1 /* second.png */,
-				A7D0A2EB15E91D3600B26FB1 /* second@2x.png */,
 				A7D0A2CE15E91D3600B26FB1 /* Supporting Files */,
+				A7AE803015EB1449002D90F3 /* IncludeTableViewController.h */,
+				A7AE803115EB1449002D90F3 /* IncludeTableViewController.m */,
 			);
 			path = TestX;
 			sourceTree = "<group>";
@@ -185,14 +198,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7D0A30F15E92B2400B26FB1 /* CustomTableView */ = {
+		A7D0A30F15E92B2400B26FB1 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
 				A7D0A31015E92B3C00B26FB1 /* CustomCell.h */,
 				A7D0A31115E92B3C00B26FB1 /* CustomCell.m */,
 				A7D0A31315E92B4E00B26FB1 /* CustomCell.xib */,
 			);
-			name = CustomTableView;
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +327,7 @@
 				A7D0A2E815E91D3600B26FB1 /* SecondViewController.m in Sources */,
 				A7D0A30D15E929B100B26FB1 /* TableViewController.m in Sources */,
 				A7D0A31215E92B3C00B26FB1 /* CustomCell.m in Sources */,
+				A7AE803215EB1449002D90F3 /* IncludeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +507,7 @@
 				A7D0A30615E91D3600B26FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7D0A30715E91D3600B26FB1 /* Build configuration list for PBXNativeTarget "TestXTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +516,7 @@
 				A7D0A30915E91D3600B26FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
